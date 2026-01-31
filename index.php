@@ -1,3 +1,5 @@
+<?php
+
 <!-- INDEX FILE -->
 
 <!-- Testing Device Media files ---> 
