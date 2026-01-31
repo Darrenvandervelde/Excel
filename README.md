@@ -1,6 +1,6 @@
-# Megan CRM
+# Ethrium CRM
 
-## Version : 1.0.2v
+## Version 1.0.2v
 
 ### About Project
 
