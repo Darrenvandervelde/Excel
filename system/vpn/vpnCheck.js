@@ -1,0 +1,1 @@
+/* VPN Check for the index.php file. */
