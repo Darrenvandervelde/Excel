@@ -1,6 +1,19 @@
 <?php
+session_start();
 
-<html>
+$timeout = 1800; // 30 minutes in seconds
+
+if (isset($_SESSION['session_time']) && (time() - $_SESSION['session_time']) > $timeout) {
+    session_unset();
+    session_destroy();
+    header("Location: index.php");
+    exit();
+}
+
+// Update session time on activity
+$_SESSION['session_time'] = time();
+
+<DOCTYPE html>
 <!-- INDEX FILE -->
 
 <!-- Testing Device Media files ---> 
