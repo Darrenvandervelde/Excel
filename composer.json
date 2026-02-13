@@ -2,6 +2,7 @@
     "name": "yourname/project-name",
     "description": "A short description of your project",
     "type": "project",
+    "license": "proprietary",
     "require": {
         "php": "^8.1"
     },
